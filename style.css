@@ -3,6 +3,7 @@ body {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  min-width: 400px;
 }
 
 .input-field {
