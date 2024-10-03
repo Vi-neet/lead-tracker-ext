@@ -16,9 +16,10 @@ body {
   margin-bottom: 4px;
 }
 
-.input-btn {
+.input-btn,
+.tab-btn {
   cursor: pointer;
-  border: none;
+  border: 1px solid #6439ff;
   padding: 10px 20px;
   background-color: #6439ff;
   color: white;
@@ -44,4 +45,15 @@ li a:visited {
 li a:hover,
 li a:active {
   color: #3bc9db;
+}
+
+.del-btn{
+  cursor: pointer;
+  border: 1px solid #6439ff;
+  padding: 10px 20px;
+  color:#6439ff;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.281);
+  border-radius: 8px;
+  font-weight: bold;
 }
