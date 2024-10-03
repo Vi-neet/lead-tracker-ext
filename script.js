@@ -56,3 +56,4 @@ function clearField() {
 // -> History option
 // -> Refractor in React
 // -> Make sure the extension doesn't disappear upon switching tabs
+// -> Actually make the links work when you click on them instead of a 404
