@@ -6,6 +6,8 @@ body {
   min-width: 400px;
   min-height: 300px;
   background-color: #212529;
+  position: relative;
+  padding-bottom: 60px;
 }
 
 .input-field {
@@ -60,9 +62,6 @@ li a:active {
   font-weight: bold;
 }
 .export-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   background-color: #40c057;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.281);
@@ -70,11 +69,55 @@ li a:active {
   font-weight: bold;
   border: none;
   padding: 5px 10px;
-
 }
 
 .excel-icon {
   height: 30px;
   width: 30px;
-  
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.delete-item {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+.delete-item:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.copy-btn {
+  cursor: pointer;
+  background-color: #228be6;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.281);
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+}
+.copy-icon {
+  height: 30px;
+  width: 30px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+.btn-container {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  background-color: #212529;
 }
