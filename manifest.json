@@ -1,20 +1,10 @@
-<<<<<<< HEAD
- {
-=======
 {
->>>>>>> c7c56e8ea64d8e7000a700599ff86b283b77f0f5
   "manifest_version": 3,
   "version": "1.0",
   "name": "Prospect Vault",
   "action": {
-      "default_popup": "index.html",
-      "default_icon": "icon.png"
-<<<<<<< HEAD
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
   },
-  "permissions" :[
-    "tabs"
-  ]
-=======
-  }
->>>>>>> c7c56e8ea64d8e7000a700599ff86b283b77f0f5
+  "permissions": ["tabs"]
 }
